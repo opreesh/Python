@@ -1,0 +1,54 @@
+Git is a Version Control System (VCS) for tracking changes in computer files
+
+- Distrivuted version control
+- Coordinates work between multiple developers
+- Who made what chnages and when ?
+- Revert back at any time
+- Local & remote repos
+
+Concepts of GIT
+
+* Keeps track os code history
+* Takes "snapshots" of your file
+* You decide when to take a snapshot by making a "commit"
+* You can visit any snapshot at any time
+* You can stage files before committing
+
+------------------ BASIC COMMANDS ---------------------------
+
+-> $ git init  # Initialize Local Git Repository hidden by default
+-> $ git add<file>  # Add File(s) To Index ( Stageing )
+-> $ git status # Check Status of Working Tree
+-> $ git commit # When ready to Commit changes In Index
+-> $ git commit -m 'Comment' # Skip editing stage
+-> $ git push   # Will take your local repository and PUSH it to a Remote Repository (such as github.com, bitbucket)
+-> $ git pull   # Pull Latest Changes From Remote Repository
+-> $ git clone  # Clone Remote Repository Into A New Directory
+-> $ git --version # Print`s git version ....
+-> $ git add *.html # Add`s all .html files
+-> $ git add . # Add`s everything
+-> $ git rm --cashed file.extension # Remove file.extension
+-> $ git config --global user.name 'opreesh'
+-> $ git config --global user.email 'opreesh@gmail.com'
+
+-> $ git branch branchName # Create a branch named "branchName"
+-> $ git checkout branchName # Switch to the branch named "branchName"
+-> $ git remote add origin https://github.com/opreesh/My-First-Repository.git
+-> $ git remote
+-> $ $ git push -u origin master
+
+
+$ touch # Create file.suffix
+$ touch .gitignore # Will be ignored to adding in Index
+
+
+
+------------------ INSTALLING ---------------------------
+
+For Windows go to:
+https://git-scm.com/download/win
+For Mac go to:
+https://git-scm.com/download/mac
+For Linux hit bash with:
+$ sudo apt-get install git
+

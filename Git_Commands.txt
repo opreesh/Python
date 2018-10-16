@@ -1,0 +1,9 @@
+git status
+git commit -am "First git commit!"
+# First commit
+git config --global user.email "opr33sh@yahoo.com"
+git config --global user.name "Dan Opris"
+# Git Push
+git push
+Username for 'https://github.com': opreesh
+Password for 'https://opreesh@github.com' :
